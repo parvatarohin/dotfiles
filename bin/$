@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# This commit adds a script named `$` that runs the arguments passed
+# to it, script that once added to the `PATH` will make the shell
+# "ignore" a leading `$`, thus, removing the need to exclude the `$`
+# when copying shell commands.
+# Ref: https://remysharp.com/links/2020-11-17-92c83571
+$@
